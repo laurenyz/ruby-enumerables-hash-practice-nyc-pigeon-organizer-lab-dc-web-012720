@@ -36,7 +36,7 @@ def nyc_pigeon_organizer(data)
         if organized_pigeons[name][categories] == nil
           organized_pigeons[name][categories] = []
         end 
-        organized_pigeons[name][categories].push( specifics.to_s)
+        organized_pigeons[name][categories].push(specifics.to_s)
         binding.pry
       end
     end
