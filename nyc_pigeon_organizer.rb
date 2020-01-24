@@ -1,3 +1,4 @@
+require 'pry'
 # def nyc_pigeon_organizer(data)
 # organized_pigeons = {}
 # i = 0
@@ -36,6 +37,7 @@ def nyc_pigeon_organizer(data)
           organized_pigeons[name][categories] = []
         end 
         organized_pigeons[name][categories].push( specifics.to_s)
+        binding.pry
       end
     end
   end
